@@ -1,0 +1,1 @@
+java -Dwebdriver.chrome.driver="$(dirname "$0")"/chromedriver -jar "$(dirname "$0")"/selenium-server-standalone-3.10.0.jar -role node -hub http://192.168.43.70:4444/grid/register -port 5558 -browser "browserName=chrome, maxInstances=10, maxSession=5"

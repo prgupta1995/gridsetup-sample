@@ -1,0 +1,1 @@
+java -Dwebdriver.gecko.driver="$(dirname "$0")"/geckodriver -jar "$(dirname "$0")"/selenium-server-standalone-3.10.0.jar -role node -hub http://192.168.43.70:4444/grid/register -port 5555 -browser "browserName=firefox, maxInstances=10,maxSession=5"

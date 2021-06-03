@@ -1,0 +1,1 @@
+java -jar "$(dirname "$0")"/selenium-server-standalone-3.10.0.jar -role hub
